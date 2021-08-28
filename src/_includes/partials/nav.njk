@@ -1,0 +1,7 @@
+<nav>
+{%- for item in navigation %}
+  <h3 class="nav__item">
+    <a href={{item.link}}>{{item.text}}</a>
+  </h3>
+{% endfor %}
+</nav>
